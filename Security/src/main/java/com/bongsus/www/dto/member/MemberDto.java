@@ -1,4 +1,4 @@
-package com.bongsus.www.dto;
+package com.bongsus.www.dto.member;
 
 import java.time.LocalDateTime;
 

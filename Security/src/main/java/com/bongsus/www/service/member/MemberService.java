@@ -1,4 +1,4 @@
-package com.bongsus.www.service;
+package com.bongsus.www.service.member;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +18,7 @@ import org.springframework.stereotype.Service;
 import com.bongsus.www.domain.Role;
 import com.bongsus.www.domain.entity.MemberEntity;
 import com.bongsus.www.domain.repository.MemberRepository;
-import com.bongsus.www.dto.MemberDto;
+import com.bongsus.www.dto.member.MemberDto;
 
 import lombok.AllArgsConstructor;
 

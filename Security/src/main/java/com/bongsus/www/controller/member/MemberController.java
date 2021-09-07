@@ -1,12 +1,12 @@
-package com.bongsus.www.controller;
+package com.bongsus.www.controller.member;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.bongsus.www.dto.MemberDto;
-import com.bongsus.www.service.MemberService;
+import com.bongsus.www.dto.member.MemberDto;
+import com.bongsus.www.service.member.MemberService;
 
 import lombok.AllArgsConstructor;
 
@@ -33,7 +33,7 @@ public class MemberController {
 	 * @return	회원가입 화면
 	 */
 	@GetMapping("/signup")
-	public void dispSignup() {}
+	public void signup() {}
 	
 	/**
 	 * 회원가입 처리
@@ -56,7 +56,9 @@ public class MemberController {
 	 * @return	로그인 화면
 	 */
 	@GetMapping("/login")
-	public void dispLogin() {}
+	public void login() {
+		
+	}
 	
 	/**
 	 * 로그인 결과
@@ -64,7 +66,7 @@ public class MemberController {
 	 * @return	로그인 결과 화면
 	 */
 	@GetMapping("/loginResult")
-	public void displLoginResult() {}
+	public void loginResult() {}
 	
 	/**
 	 * 로그아웃 결과
@@ -72,7 +74,7 @@ public class MemberController {
 	 * @return	로그아웃 결과 화면
 	 */
 	@GetMapping("/logoutResult")
-	public void dispLogout() {}
+	public void logoutResult() {}
 	
 	/**
 	 * 접근 거부
@@ -80,7 +82,7 @@ public class MemberController {
 	 * @return	접근 거부 화면
 	 */
 	@GetMapping("/denied")
-	public void dispLdnied() {}
+	public void denied() {}
 	
 	/**
 	 * 내정보
@@ -88,6 +90,6 @@ public class MemberController {
 	 * @return	내정보 화면
 	 */
 	@GetMapping("/myInfo")
-	public void dispMyInfo() {}
+	public void myInfo() {}
 	
 }
